@@ -27,6 +27,7 @@ body {
 }
 
 button{
+    width: 10em;
     padding: 6px;
-    margin-top: 6px;
+    margin-top: 15px;
 }
