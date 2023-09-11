@@ -13,27 +13,27 @@
         <div>
             <h2>
                 Total amount:
-                <span class="costElement">$0.00</span>
+                <span>$</span><span class="costElement">0.00</span>
             </h2>
         </div>
         
         
-        <form>
+        
             <div class="inputContainer">
-                <label>Amount</label>
-                <input type="text" name="preAmount" id="preAmount" required placeholder="Put amount in Dollars">
+                <b>Amount: </b>
+                <input type="text" name="preAmount" id="preAmount" class="preAmount" placeholder="Put amount in Dollars">
             </div>
     
             <div class="inputContainer">
-                <label>Tip Percentage</label>
-                <input type="text" name="tipPercentage" id="tipPercentage" required placeholder="Put tip in Percentage">
+                <b><label>Tip Percentage: </label></b>
+                <input type="text" name="tipPercentage" id="tipPercentage" class="tipPercentage" placeholder="Put tip in Percentage">
             </div>
 
             <div>
                 <button class="calculateButton">Calculate</button>
             </div>
     
-        </form>
+        
     </div>
 
 </body>
