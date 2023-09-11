@@ -8,24 +8,33 @@
     <script src="app.js" async></script>
 </head>
 <body>
-    <form>
+    <div class="card">
+        
         <div>
-            <label>Amount</label>
-            <input type="text" name="name" id="name" required placeholder="Put amount in Dollars">
+            <h2>
+                Total amount:
+                <span class="Cost Element">$0.00</span>
+            </h2>
         </div>
+        
+        
+        <form>
+            <div class="inputContainer">
+                <label>Amount</label>
+                <input type="text" name="preAmount" id="preAmount" required placeholder="Put amount in Dollars">
+            </div>
+    
+            <div class="inputContainer">
+                <label>Tip Percentage</label>
+                <input type="text" name="tipPercentage" id="tipPercentage" required placeholder="Put tip in Percentage">
+            </div>
 
-        <div>
-            <label>Tip Percentage</label>
-            <input type="text" name="name" id="name" required placeholder="Put tip in Percentage">
-        </div>
-
-
-
-
-
-
-    </form>
-
+            <div>
+                <button>Calculate</button>
+            </div>
+    
+        </form>
+    </div>
 
 </body>
 </html>
