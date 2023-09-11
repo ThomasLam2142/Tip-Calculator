@@ -31,3 +31,8 @@ button{
     padding: 6px;
     margin-top: 15px;
 }
+
+.mainHeader{
+    padding: 6px;
+    color: rgb(238, 224, 176);
+}
