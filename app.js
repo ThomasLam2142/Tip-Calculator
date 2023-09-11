@@ -12,8 +12,9 @@ calculateBtn.addEventListener("click", ()=>{
     total = (inputAmount * tipPercentage);
     console.log(total);
     
+    
 
-    costTotal.textContent = Math.round(total,2);
+    costTotal.textContent = total.toFixed(2);
 
     
 })
